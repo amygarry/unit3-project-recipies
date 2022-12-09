@@ -8,7 +8,7 @@ import './HomeScreen.css'
 
 const HomeScreen = () => {  
 
-  const [recipes, setRecipies]= useState('')
+  const [recipes, setRecipies]= useState([])
   const [search, setSearch]=useState('')
 
   useEffect(()=>{
@@ -53,6 +53,7 @@ const HomeScreen = () => {
       <RecipeCard/>
       <RecipeCard/> */}
       {recipeDisplay ? recipeDisplay : <h2>No Recipes</h2>}
+     
       </div>
       </div>
     </div>

@@ -1,10 +1,11 @@
 span{
     display:flex;
     align-items: center;
-    height: 30px;
-    width: 300px;
-    background-color: rgba(227, 128, 41, 0.884);
+    height: 36px;
+    width: 310px;
+    background-color: rgba(234, 203, 174, 0.884);
     border-radius: 16px;
+    margin-bottom: 8px;
 }
 
 input{
@@ -26,4 +27,8 @@ input{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+svg{
+    padding: 4px;
 }
