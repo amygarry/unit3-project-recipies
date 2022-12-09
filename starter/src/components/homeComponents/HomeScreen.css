@@ -1,0 +1,29 @@
+span{
+    display:flex;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    background-color: rgba(227, 128, 41, 0.884);
+    border-radius: 16px;
+}
+
+input{
+    background-color:transparent;  
+    border: none;
+    width: 280px;
+    height: 28px;
+    border-radius: 16px;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

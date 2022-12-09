@@ -1,0 +1,30 @@
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(51, 50, 50);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 50% 50%;
+    background-color: rgb(47, 151, 151);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icondiv {
+    display: flex;
+
+}
+
+.margin {
+    margin-left: 7%;
+    margin-right: 7%;
+}
