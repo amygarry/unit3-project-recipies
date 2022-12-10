@@ -1,26 +1,42 @@
 .info-section{
     height: auto;
     display: flex;
-    padding: 10%;
+    padding: 8%;
     justify-content: space-between;
+    padding-top: 4%;
 }
 
 .recipe-card{
     height: max-content;
     width: 200px;
-    border: 1px solid rgb(195, 192, 192);
-    padding: 4%;
+    border: 1px solid rgb(223, 219, 219);
+    padding: 3%;
+    box-shadow: 0px 2px 1px rgb(197, 193, 193);
+    border-top: none;
+    margin-right: 4%;
 }
 
 .instruction-card{
     height: auto;
-    width: 500px;
-    border: 3px;
-    border: 1px solid rgb(195, 192, 192);
-    padding: 4%;
-    
+    width: 350px;
+    border: 1px solid rgb(223, 219, 219);
+    padding: 3%;
+    box-shadow: 0px 2px 1px rgb(197, 193, 193);
+    border-top: none;
+    margin: left 4%;
 }
 
 p{
     color:black
+}
+
+.card-headers{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 8%;
+    margin-top: 2%;
+}
+
+.extra-margin{
+    margin-top: 25%;
 }

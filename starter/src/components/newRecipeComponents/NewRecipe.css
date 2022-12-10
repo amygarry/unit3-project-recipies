@@ -1,0 +1,33 @@
+form{
+    color: black;
+    /* display: flex;
+    flex-direction: column; */
+    width: 60vw;
+    padding: 4%;
+
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4%;
+
+}
+
+input{
+    margin:1%;
+    height: 30px;
+    width: ;
+}
+
+.orng-btn{
+    background-color: rgb(240, 127, 34);
+    height: 35px;
+}
+
+/* .center{
+    display: flex;
+    justify-content: center;
+} */

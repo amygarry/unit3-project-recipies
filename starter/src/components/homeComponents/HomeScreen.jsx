@@ -20,6 +20,8 @@ const HomeScreen = () => {
     )
   }, [])
 
+ 
+
   const recipeDisplay = recipes
     .filter((recipe, index) => {
         let title = recipe.recipe_name.toLowerCase()
@@ -42,6 +44,7 @@ const HomeScreen = () => {
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             placeholder="Search for a Recipe"
+            className='home-input'
           />
       </span>
       <div className='wrap'>

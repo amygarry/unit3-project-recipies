@@ -5,8 +5,9 @@ import {useNavigate} from 'react-router-dom'
 function RecipeCard ({recipe}){
     const navigate= useNavigate()
 
+
     const clickHandler =()=>{
-        navigate(`/recipe/recipe_${recipe.id}`)
+        navigate(`/recipe/${recipe.recipe_id}`)
         }
 
     return (
